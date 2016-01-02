@@ -12,7 +12,7 @@ and open the template in the editor.
     <body>
         <ul id="user-menu">
           <li><a href="#">Sign Up</a></li>
-          <li><a href="#">My account</a></li>
+          <li><a href="#">My  account</a></li>
         </ul>
         <?php
         // put your code here
