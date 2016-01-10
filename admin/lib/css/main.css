@@ -1,0 +1,57 @@
+#page {
+	margin:0 auto;
+	width:90%; 
+	max-width:850px;/*m taille que header */
+	min-width:760px;
+}
+
+header {
+	margin:0 auto;
+	max-width:850px;
+}
+
+#colGauche {
+	float:left;
+	width:18%;
+	margin-top:2%;
+}
+
+#menu li {
+	list-style-image:none;
+	text-align:left;
+}
+
+#contenu {
+	float:left;
+	margin-top:5%;
+	margin-left:2%;
+	width:80%;
+}
+
+#main {
+	padding-left:1%;padding-right:1%;
+	width:100%;/* 80% des 75% */
+	display:inline-block;	
+}
+
+footer {
+	clear:both;
+	color:#888;
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+
+header img {
+	width:100%;
+}
+#login_form
+{
+    background-color: white; //#CACACA
+    width : 75% ;
+    height : 135px ;
+    /*text-align:center;*/
+    margin-left: 25%;
+    margin-left: 15%;
+    margin-top : 5%;
+}
