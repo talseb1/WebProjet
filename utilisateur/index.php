@@ -38,13 +38,27 @@ foreach(glob('../admin/lib/js/jquery/*.js') as $js) {
         <header>
             <img src="../admin/images/ToysGamesbanner.jpg" alt="Banniere" />
         </header>
+  <section id="exemple">
+      <div id="category-menu">
+            <div id="menu">
+            <ul class="na">
+                <?php
+                if(file_exists('./lib/php/Jmenu.php')){
+                    include ('./lib/php/Jmenu.php');
+                }
+                ?>
+            </ul >
+            </div>
+        </section>
         
-            
-           
-   <div id="footer">
-            <?php
-            require './pages/footer.php';
+        
+  <div id="wrap-bottom">
+    <div id="bottom">
+      <?php
+            require './lib/php/footer.php';
             ?>
-   </div>
+    </div>
+  </div>          
+
     </body>
 </html>
