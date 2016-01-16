@@ -47,11 +47,43 @@ header img {
 }
 #login_form
 {
-    background-color: white; //#CACACA
+    background-color: grey; /*#CACACA*/
     width : 75% ;
     height : 135px ;
-    /*text-align:center;*/
-    margin-left: 25%;
+    border-radius: 15px 15px 15px;
+		
+    margin:0 auto;
     margin-left: 15%;
     margin-top : 5%;
+}
+
+#contenerlogs{
+    
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+input{
+ -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; 
+  -webkit-box-shadow: inset 0px 4px 4px -1px rgba(229, 229, 229, 1);
+  -moz-box-shadow: inset 0px 2px 2px -1px rgba(229, 229, 229, 1);
+  box-shadow: inset 2px 2px 2px -1px rgba(229, 229, 229, 1); 
+  border: 1px solid #e2e2e2;
+  padding: 0px 20px ;
+  height: 25px;
+
+}
+
+#footer{ 
+    float: left; 
+    width: 100%; 
+}
+
+#bottom{ 
+    width: 960px; 
+    margin: 0 auto; 
+    background-color: #808080; 
 }
