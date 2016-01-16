@@ -8,7 +8,7 @@
             height:100%;
         }
         body{
-            background-color: rgb(215,215,215);
+            background-color: rgb(234,234,234);
         }
         
         #bottom{
@@ -21,13 +21,14 @@
 	max-width:850px;
 }
 #wrap-bottom{
+  margin-top: 10%; 
+  border-top: 3px solid red;  
   float: left;
   width: 100%;
   height: 40px;
   line-height: 40px;
   background: #000000;
   font-size: 11px;
-  border-top: 1px solid #2c2b2b;
   border-bottom: 2px solid #181818;
 }
 
@@ -48,7 +49,19 @@
 		margin: 0 30px;
     }
 
-
+    img.left{
+        float:left;
+        image-resolution: auto;
+    }
+    
+    .td1{
+        font-family: bold;
+    }
+    #msgAccueil{
+       float:right;
+       border-bottom: 3px solid #333333;
+       border-top: 3px solid #333333;
+    }
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
@@ -66,6 +79,7 @@
 }
 #cssmenu {
   border-bottom: 3px solid #333333;
+  border-top: 3px solid #333333;
   padding: 0 5px;
   width: auto;
   font-family: Helvetica, Arial, sans-serif;
