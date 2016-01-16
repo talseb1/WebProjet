@@ -40,7 +40,8 @@ foreach(glob('../admin/lib/js/jquery/*.js') as $js) {
         </header>
   <section id="exemple">
       <div id="category-menu">
-            <div id="menu">
+          
+            <div id="cssmenu">
             <ul class="na">
                 <?php
                 if(file_exists('./lib/php/Jmenu.php')){
